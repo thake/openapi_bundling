@@ -2,7 +2,7 @@
 ## Preparation
 Make sure you have the [redocly cli](https://redocly.com/docs/cli/installation/) installed.
 ## Run demonstration
-[openapi.yaml] contains a OpenAPI spec that references a schema in [schema.yaml].
+[openapi.yaml](openapi.yaml) contains a OpenAPI spec that references a schema in [schemas.yaml](schemas.yaml).
 One can bundle the spec and the schema into a single file by executing: 
 ```bash
 redocly bundle openapi.yaml -o bundled.yaml
